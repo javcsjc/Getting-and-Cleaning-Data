@@ -35,20 +35,21 @@ High Level Project Steps (For further details please refer to the run_analysis.R
 * Create a second independent data set with the average of each variable, for each activity, for each subject.
 
 Internal Data Sets to run_analysis.R file:
-* xTrain - Content imported from reading the X_train.txt file
-* yTrain - Content improted from reading the y_train.txt file
-* subjectTrain - Content imported from reading the subject_train.txt file
-* features - Content imported from reading the features.txt file
-* activityType - Content imported from reading the activity_labels.txt file
-* xTest - Content imported from reading the X_test.txt file
-* yTest - Content improted from reading the y_test.txt file
-* subjectTest - Content imported from reading the subject_test.txt file 
-* trainingData - Data set created after combining xTrain, subjectTrain and yTrain
-* testData - Data set created after combining xTest, subjectTest and yTest
-* objective1 - Data set created by combining the Test and Training sets. trainingData + testData.
-* objective2 - Data set created after extracting selected columns. i.e: mean() and std().
-* objective2 <updated> - Data set created after changing labels with more descriptive names
-* objective5 - Independent tidy data set with the average of each variable, for each activity, for each subject.
+* xTrain - Content imported from reading the X_train.txt file. Data frame: 7352 observations 561 variables.
+* yTrain - Content improted from reading the y_train.txt file. Data frame: 7352 observations 1 variable.
+* subjectTrain - Content imported from reading the subject_train.txt file. Data frame: 7352 observations 1 variable.
+* features - Content imported from reading the features.txt file. Data frame: 561 observations 2 variables.
+* activityType - Content imported from reading the activity_labels.txt file. Data frame: 6 observations 2 variables.
+* xTest - Content imported from reading the X_test.txt file. Data frame: 2947 observations 561 variables
+* yTest - Content improted from reading the y_test.txt file. Data frame: 2947 observations 1 variable.
+* subjectTest - Content imported from reading the subject_test.txt file. Data frame: 2947 observations 1 variable. 
+* trainingData - Data set created after combining xTrain, subjectTrain and yTrain. Data frame: 7352 observations 563 variables.
+* testData - Data set created after combining xTest, subjectTest and yTest. Data frame: 2947 observations 563 variables.
+* objective1 - Data set created by combining the Test and Training sets. trainingData + testData. Data frame: 10299 observations 563 variables.
+* objective2 - Data set created after extracting selected columns. i.e: mean() and std(). Data frame: 10299 observations 68 variables.
+* objective2 <updated> - Data set created after changing labels with more descriptive names. Data frame: 10299 observations 68 variables.
+* objective5 - Independent tidy data set with the average of each variable, for each activity, for each subject. Data frame: 
+* Objective5_dataset.txt - Text file created for the submission of the final dataset. Created using write.table().
 
 List of columns names (in order since they are grouped by subject & activity) for the independent tidy data set:
 * 1 subjectID
