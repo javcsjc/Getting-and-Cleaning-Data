@@ -110,7 +110,7 @@ objective2 = objective1[selectColumns==TRUE]; ## data set with 10,299 observatio
 
 ## Objective 3.- Use descriptive activity names to name the activities in the data set. DONE as part of Objective #1.
 ## "objective2" includes a column name "activitydesc" which represents the activity description in the data set. 
-## This was DONE as part of Objective #1. See Step#4 for Train data set and rows 78 to 83 for Test data set.
+## This was DONE as part of Objective #1. See rows 53-59 for Train data set and rows 78-83 for Test data set.
 
 ## Objective 4.- Appropriately label the data set with descriptive activity names.
 
