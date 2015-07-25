@@ -2,11 +2,6 @@ Getting and Cleaning Data - Course Project
 
 Author: "Jose Alberto Valdez Crespo"
 
-Files on this Repo
-* run_analysis.R
-* README.md
-* CodeBook.md
-
 Data Source:
 
 The source data for this project can be found here: 
@@ -14,7 +9,6 @@ The source data for this project can be found here:
 * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Original and Relevant Data Sets for this project:
-
 * X_train.txt - Training set
 * y_train.txt - Training IDs representing which activity was performed for each record
 * subject_train.txt - ID representing the subject who performed the activity for the training set
@@ -25,15 +19,14 @@ Original and Relevant Data Sets for this project:
 * activity_labels.txt - Labels representing each of the activities performed in both the training and test sets.
 
 High Level Project Steps (For further details please refer to the run_analysis.R file):
-
 * Read all the files
 * Get Train data set ready
   ** Use feature labels as column names for training set
-  ** Use activity labels on represent activities for training set
+  ** Use activity labels to represent activities for training set
   ** Rename column for subjects on training set
 * Get Test data set ready
   ** Use feature labels as column names for test set
-  ** Use activity labels on represent activities for test set
+  ** Use activity labels to represent activities for test set
   ** Rename column for subjects on training set. Use the same column name as for trainig set.
 * Combine Test and Training sets
 * Subset the combined data set to include select columns. i.e. mean() and std()
@@ -42,7 +35,6 @@ High Level Project Steps (For further details please refer to the run_analysis.R
 * Create a second independent data set with the average of each variable, for each activity, for each subject.
 
 Internal Data Sets to run_analysis.R file:
-
 * xTrain - Content imported from reading the X_train.txt file
 * yTrain - Content improted from reading the y_train.txt file
 * subjectTrain - Content imported from reading the subject_train.txt file
@@ -59,7 +51,6 @@ Internal Data Sets to run_analysis.R file:
 * objective5 - Independent tidy data set with the average of each variable, for each activity, for each subject.
 
 List of columns names (in order since they are grouped by subject & activity) for the independent tidy data set:
-
 * 1 subjectID
 * 2	activitydesc
 * 3	timeimeBodyAccMean-X
