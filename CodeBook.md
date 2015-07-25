@@ -2,8 +2,6 @@ Getting and Cleaning Data - Course Project
 
 Author: "Jose Alberto Valdez Crespo"
 
-Data Source:
-
 The source data for this project can be found here: 
 
 * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
