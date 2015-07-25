@@ -51,7 +51,7 @@ Internal Data Sets to run_analysis.R file:
 * objective5 - Independent tidy data set with the average of each variable, for each activity, for each subject. Data frame: 180 observations 68 variables.
 * Objective5_dataset.txt - Text file created for the submission of the final dataset. Created using write.table(). Data frame: 180 observations 68 variables.
 
-List of columns names (in order since they are grouped by subject & activity) for the independent tidy data set:
+List of columns names (in order since they are grouped by subject & activity) for the Objective5_dataset.txt:
 * 1 subjectID
 * 2	activitydesc
 * 3	timeimeBodyAccMean-X
