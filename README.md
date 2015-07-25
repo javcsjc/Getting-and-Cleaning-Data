@@ -1,8 +1,10 @@
-README.md
-Course: Getting and Cleaning Data Project
+Getting and Cleaning Data - Course Project
+
 Author: "Jose Alberto Valdez Crespo"
 
-Repository for the Course Project of the Getting and Cleaning Data course. Part of the Data Science Specialization from the Johns Hopkins University.
+Original Date: July 25, 2015
+
+Repository for the Course Project of the Getting and Cleaning Data Course - Data Science Specialization - Johns Hopkins University.
 
 Overview:
 
@@ -10,11 +12,11 @@ The purpose of this project is to demonstrate your ability to collect, work with
 
 Project Objectives:
 
-1.- Merge the training and the test sets to create one data set.
-2.- Extract only the measurements on the mean and standard deviation for each measurement.
-3.- Use descriptive activity names to name the activities in the data set.
-4.- Appropriately label the data set with descriptive activity names.
-5.- Create a second, independent tidy data set with the average of each variable for each activity and each subject.
+* Merge the training and the test sets to create one data set.
+* Extract only the measurements on the mean and standard deviation for each measurement.
+* Use descriptive activity names to name the activities in the data set.
+* Appropriately label the data set with descriptive activity names.
+* Create a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Modifications to This Script:
 
