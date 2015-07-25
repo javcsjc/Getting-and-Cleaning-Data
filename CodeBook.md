@@ -57,3 +57,74 @@ Internal Data Sets to run_analysis.R file:
 * objective2 - Data set created after extracting selected columns. i.e: mean() and std().
 * objective2 <updated> - Data set created after changing labels with more descriptive names
 * objective5 - Independent tidy data set with the average of each variable, for each activity, for each subject.
+
+List of columns names (in order since they are grouped by subject & activity) for the independent tidy data set:
+
+* 1 subjectID
+* 2	activitydesc
+* 3	timeimeBodyAccMean-X
+* 4	timeBodyAccMean-Y
+* 5	timeBodyAccMean-Z
+* 6	timeBodyAccStdDev-X
+* 7	timeBodyAccStdDev-Y
+* 8	timeBodyAccStdDev-Z
+* 9	timeGravityAccMean-X
+* 10	timeGravityAccMean-Y
+* 11	timeGravityAccMean-Z
+* 12	timeGravityAccStdDev-X
+* 13	timeGravityAccStdDev-Y
+* 14	timeGravityAccStdDev-Z
+* 15	timeBodyAccJerkMean-X
+* 16	timeBodyAccJerkMean-Y
+* 17	timeBodyAccJerkMean-Z
+* 18	timeBodyAccJerkStdDev-X
+* 19	timeBodyAccJerkStdDev-Y
+* 20	timeBodyAccJerkStdDev-Z
+* 21	timeBodyGyroMean-X
+* 22	timeBodyGyroMean-Y
+* 23	timeBodyGyroMean-Z
+* 24	timeBodyGyroStdDev-X
+* 25	timeBodyGyroStdDev-Y
+* 26	timeBodyGyroStdDev-Z
+* 27	timeBodyGyroJerkMean-X
+* 28	timeBodyGyroJerkMean-Y
+* 29	timeBodyGyroJerkMean-Z
+* 30	timeBodyGyroJerkStdDev-X
+* 31	timeBodyGyroJerkStdDev-Y
+* 32	timeBodyGyroJerkStdDev-Z
+* 33	timeBodyAccMagnitudeMean
+* 34	timeBodyAccMagnitudeStdDev
+* 35	timeGravityAccMagnitudeMean
+* 36	timeGravityAccMagnitudeStdDev
+* 37	timeBodyAccJerkMagnitudeMean
+* 38	timeBodyAccJerkMagnitudeStdDev
+* 39	timeBodyGyroMagnitudeMean
+* 40	timeBodyGyroMagnitudeStdDev
+* 41	timeBodyGyroJerkMagnitudeMean
+* 42	timeBodyGyroJerkMagnitudeStdDev
+* 43	freqBodyAccMean-X
+* 44	freqBodyAccMean-Y
+* 45	freqBodyAccMean-Z
+* 46	freqBodyAccStdDev-X
+* 47	freqBodyAccStdDev-Y
+* 48	freqBodyAccStdDev-Z
+* 49	freqBodyAccJerkMean-X
+* 50	freqBodyAccJerkMean-Y
+* 51	freqBodyAccJerkMean-Z
+* 52	freqBodyAccJerkStdDev-X
+* 53	freqBodyAccJerkStdDev-Y
+* 54	freqBodyAccJerkStdDev-Z
+* 55	freqBodyGyroMean-X
+* 56	freqBodyGyroMean-Y
+* 57	freqBodyGyroMean-Z
+* 58	freqBodyGyroStdDev-X
+* 59	freqBodyGyroStdDev-Y
+* 60	freqBodyGyroStdDev-Z
+* 61	freqBodyAccMagnitudeMean
+* 62	freqBodyAccMagnitudeStdDev
+* 63	freqBodyAccJerkMagnitudeMean
+* 64	freqBodyAccJerkMagnitudeStdDev
+* 65	freqBodyGyroMagnitudeMean
+* 66	freqBodyGyroMagnitudeStdDev
+* 67	freqBodyGyroJerkMagnitudeMean
+* 68	freqBodyGyroJerkMagnitudeStdDev
