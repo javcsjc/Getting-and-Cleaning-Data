@@ -22,6 +22,6 @@ Modifications to This Script:
 
 Once you have obtained and unzipped the source files, you will need to make modifications to the run_analysis.R file to correctly set up the location of the source files in your local machine.
 
-Additional Information
+Additional Information:
 
-You can find additional information about the variables, data and transformations in the CodeBook.md file.
+You can find information about the original data sets, temporary data frames and transformations in the CodeBook.md file.
