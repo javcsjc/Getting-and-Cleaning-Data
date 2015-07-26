@@ -7,29 +7,29 @@ The source data for this project can be found here:
 * https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
 Original and Relevant Data Sets for this project:
-* X_train.txt - Training set
-* y_train.txt - Training IDs representing which activity was performed for each record
-* subject_train.txt - ID representing the subject who performed the activity for the training set
-* X_test.txt - Test set
-* y_test.txt - Test IDs representing which activity was performed for each record
-* subject_test.txt - ID representing the subject who performed the activity for the test set
-* features.txt - List of all features
+* X_train.txt - Training set.
+* y_train.txt - Training IDs representing which activity was performed for each record.
+* subject_train.txt - ID representing the subject who performed the activity for the training set.
+* X_test.txt - Test set.
+* y_test.txt - Test IDs representing which activity was performed for each record.
+* subject_test.txt - ID representing the subject who performed the activity for the test set.
+* features.txt - List of all features.
 * activity_labels.txt - Labels representing each of the activities performed in both the training and test sets.
 
 High Level Project Steps (For further details please refer to the run_analysis.R file):
-* Read all the files
-* Get Train data set ready
+* Read all the files.
+* Get Train data set ready.
   ** Use feature labels as column names for training set
   ** Use activity labels to represent activities for training set
   ** Rename column for subjects on training set
-* Get Test data set ready
+* Get Test data set ready.
   ** Use feature labels as column names for test set
   ** Use activity labels to represent activities for test set
-  ** Rename column for subjects on training set. Use the same column name as for training set.
-* Combine Test and Training sets
-* Subset the combined data set to include select columns. i.e. mean() and std()
-* Descriptive activity names done as part of prepping test and train data
-* Label data set with descriptive column names
+  ** Rename column for subjects on test set. Use the same column name as for training set.
+* Combine Test and Training sets.
+* Subset the combined data set to include select columns. i.e. mean() and std().
+* Descriptive activity names done as part of prepping test and train data.
+* Label data set with descriptive column names.
 * Create a second independent data set with the average of each variable, for each activity, for each subject.
 
 Internal Data Sets from run_analysis.R file:
@@ -38,7 +38,7 @@ Internal Data Sets from run_analysis.R file:
 * subjectTrain - Content imported from reading the subject_train.txt file. Data frame: 7352 observations 1 variable.
 * features - Content imported from reading the features.txt file. Data frame: 561 observations 2 variables.
 * activityType - Content imported from reading the activity_labels.txt file. Data frame: 6 observations 2 variables.
-* xTest - Content imported from reading the X_test.txt file. Data frame: 2947 observations 561 variables
+* xTest - Content imported from reading the X_test.txt file. Data frame: 2947 observations 561 variables.
 * yTest - Content imported from reading the y_test.txt file. Data frame: 2947 observations 1 variable.
 * subjectTest - Content imported from reading the subject_test.txt file. Data frame: 2947 observations 1 variable. 
 * trainingData - Data set created after combining xTrain, subjectTrain and yTrain. Data frame: 7352 observations 563 variables.
