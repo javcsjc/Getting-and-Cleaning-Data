@@ -1,6 +1,6 @@
 Getting and Cleaning Data - Course Project
 
-Author: "Jose Alberto Valdez Crespo"
+Author: Jose Alberto Valdez Crespo
 
 Original Date: July 25, 2015
 
