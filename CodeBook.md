@@ -25,7 +25,7 @@ High Level Project Steps (For further details please refer to the run_analysis.R
 * Get Test data set ready
   ** Use feature labels as column names for test set
   ** Use activity labels to represent activities for test set
-  ** Rename column for subjects on training set. Use the same column name as for trainig set.
+  ** Rename column for subjects on training set. Use the same column name as for training set.
 * Combine Test and Training sets
 * Subset the combined data set to include select columns. i.e. mean() and std()
 * Descriptive activity names done as part of prepping test and train data
