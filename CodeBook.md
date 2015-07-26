@@ -34,7 +34,7 @@ High Level Project Steps (For further details please refer to the run_analysis.R
 
 Internal Data Sets from run_analysis.R file:
 * xTrain - Content imported from reading the X_train.txt file. Data frame: 7352 observations 561 variables.
-* yTrain - Content improted from reading the y_train.txt file. Data frame: 7352 observations 1 variable.
+* yTrain - Content imported from reading the y_train.txt file. Data frame: 7352 observations 1 variable.
 * subjectTrain - Content imported from reading the subject_train.txt file. Data frame: 7352 observations 1 variable.
 * features - Content imported from reading the features.txt file. Data frame: 561 observations 2 variables.
 * activityType - Content imported from reading the activity_labels.txt file. Data frame: 6 observations 2 variables.
