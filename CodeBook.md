@@ -32,7 +32,7 @@ High Level Project Steps (For further details please refer to the run_analysis.R
 * Label data set with descriptive column names
 * Create a second independent data set with the average of each variable, for each activity, for each subject.
 
-Internal Data Sets to run_analysis.R file:
+Internal Data Sets from run_analysis.R file:
 * xTrain - Content imported from reading the X_train.txt file. Data frame: 7352 observations 561 variables.
 * yTrain - Content improted from reading the y_train.txt file. Data frame: 7352 observations 1 variable.
 * subjectTrain - Content imported from reading the subject_train.txt file. Data frame: 7352 observations 1 variable.
