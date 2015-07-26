@@ -45,7 +45,7 @@ Internal Data Sets to run_analysis.R file:
 * testData - Data set created after combining xTest, subjectTest and yTest. Data frame: 2947 observations 563 variables.
 * objective1 - Data set created by combining the Test and Training sets. trainingData + testData. Data frame: 10299 observations 563 variables.
 * objective2 - Data set created after extracting selected columns. i.e: mean() and std(). Data frame: 10299 observations 68 variables.
-* objective2 <updated> - Data set created after changing labels with more descriptive names. Data frame: 10299 observations 68 variables.
+* objective2 - Updated data set created after changing labels with more descriptive names. Data frame: 10299 observations 68 variables.
 * objective5 - Independent tidy data set with the average of each variable, for each activity, for each subject. Data frame: 180 observations 68 variables.
 * Objective5_dataset.txt - Text file created for the submission of the final dataset. Created using write.table(). Data frame: 180 observations 68 variables.
 
