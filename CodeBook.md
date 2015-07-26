@@ -39,7 +39,7 @@ Internal Data Sets from run_analysis.R file:
 * features - Content imported from reading the features.txt file. Data frame: 561 observations 2 variables.
 * activityType - Content imported from reading the activity_labels.txt file. Data frame: 6 observations 2 variables.
 * xTest - Content imported from reading the X_test.txt file. Data frame: 2947 observations 561 variables
-* yTest - Content improted from reading the y_test.txt file. Data frame: 2947 observations 1 variable.
+* yTest - Content imported from reading the y_test.txt file. Data frame: 2947 observations 1 variable.
 * subjectTest - Content imported from reading the subject_test.txt file. Data frame: 2947 observations 1 variable. 
 * trainingData - Data set created after combining xTrain, subjectTrain and yTrain. Data frame: 7352 observations 563 variables.
 * testData - Data set created after combining xTest, subjectTest and yTest. Data frame: 2947 observations 563 variables.
