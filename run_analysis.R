@@ -34,17 +34,17 @@ library(dplyr);
 ## We need to perform a series of steps to both train and test sets to meet this objective.
 
 ## Step #1 - Read data from Train folder
-## Importing X_train.txt file. We get a data.frame with dimensions of: 7352  561.
+## Importing X_train.txt file. We get a data frame with dimensions of: 7352  561.
 xTrain = read.table('./UCI HAR Dataset/train/X_train.txt', stringsAsFactors=FALSE); 
-## Importing y_train.txt file. We get a data.frame with dimensions of: 7352  1.
+## Importing y_train.txt file. We get a data frame with dimensions of: 7352  1.
 yTrain = read.table('./UCI HAR Dataset/train/y_train.txt', stringsAsFactors=FALSE);
-## Importing subject_train.txt. We get a data.frame with dimensions of: 7352  1.
+## Importing subject_train.txt. We get a data frame with dimensions of: 7352  1.
 subjectTrain = read.table('./UCI HAR Dataset/train/subject_train.txt', stringsAsFactors=FALSE);
 
 ## Step #2 - Read in the additional data from the UCI HAR Dataset folder
-## Importing features.txt file. We get a data.frame with dimensions: 561  2.
+## Importing features.txt file. We get a data frame with dimensions: 561  2.
 features = read.table('./UCI HAR Dataset/features.txt', stringsAsFactors=FALSE);
-## Importing activity_labels.txt file. We get a data.frame with dimensions: 6  2.
+## Importing activity_labels.txt file. We get a data frame with dimensions: 6  2.
 activityType = read.table('./UCI HAR Dataset/activity_labels.txt', stringsAsFactors=FALSE);
 
 ## Step #3 - Use the records on "features' as the column names on "xTrain"
@@ -68,9 +68,9 @@ trainingData <- cbind(xTrain, subjectTrain, yTrain);
 ## and the other one to include the activity description.
 
 ## Now we need to repeat Steps 1-6 for the Test data. 
-xTest = read.table('./UCI HAR Dataset/test/X_test.txt', stringsAsFactors=FALSE); ## data.frame dimensions: 2947  561.
-yTest = read.table('./UCI HAR Dataset/test/y_test.txt', stringsAsFactors=FALSE); ## data.frame dimensions: 2947  1.
-subjectTest = read.table('./UCI HAR Dataset/test/subject_test.txt', stringsAsFactors=FALSE); ## data.frame dimensions: 2947  1.
+xTest = read.table('./UCI HAR Dataset/test/X_test.txt', stringsAsFactors=FALSE); ## data frame dimensions: 2947  561.
+yTest = read.table('./UCI HAR Dataset/test/y_test.txt', stringsAsFactors=FALSE); ## data frame dimensions: 2947  1.
+subjectTest = read.table('./UCI HAR Dataset/test/subject_test.txt', stringsAsFactors=FALSE); ## data frame dimensions: 2947  1.
 
 ## Use the records on "features' as the column names on "xTest"
 names(xTest) <- features$V2; ## We are using the second column (hence the $V2) of "features", to name all columns in "xTest".
@@ -138,11 +138,11 @@ colnames(objective2) = columnNames2;
 
 ## Objective 5.- Create a second, independent tidy data set with the average of each variable, for each activity, for each subject.
 
-## We start with grouping by subject and activities the latest data file.
+## We start with grouping by subject and activities for the latest data file.
 by_subject_activity <- group_by(objective2, subjectID, activitydesc);
 
 ## We use the function summarise_each from dplyr package.
-## We pipe in the previously grouped file "by_subject_activity" to the summarise_each function
+## We pipe in the previously grouped "by_subject_activity" to the summarise_each function
 ## and then we select to calculate the mean for all variables using "funs(mean)".
 ## finally, we assigned this new tidy data set to "objective5"
 ## This is the answer to Course Project Objective #5
