@@ -52,7 +52,7 @@ Internal Data Sets from run_analysis.R file:
 List of columns names (in order since they are grouped by subject & activity) for the Objective5_dataset.txt:
 * 1 subjectID
 * 2	activitydesc
-* 3	timeimeBodyAccMean-X
+* 3	timeBodyAccMean-X
 * 4	timeBodyAccMean-Y
 * 5	timeBodyAccMean-Z
 * 6	timeBodyAccStdDev-X
